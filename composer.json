@@ -1,0 +1,18 @@
+{
+  "name": "zhangbingliang/design-patterns",
+  "description": "design patterns",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "zhangbingliang",
+      "email": "work@iftony.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Zhangbingliang\\DesignPatterns\\": ""
+    }
+  }
+}
