@@ -14,9 +14,9 @@ class Client
     public function buildSQL()
     {
         $instance = new Sql();
-        $query = $instance->select(array('foo', 'bar'))
-            ->from('foobar', 'f')
-            ->where('f.bar = ?')
+        $query = $instance->select(array('name', 'age'))
+            ->from('user', 'u')
+            ->where('u.id = ?')
             ->getQuery();
 
         echo $query;
