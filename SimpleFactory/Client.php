@@ -1,10 +1,6 @@
 <?php
 
-namespace Baijunyao\DesignPatterns\SimpleFactory;
-
-use Zhangbingliang\DesignPatterns\SimpleFactory\Add;
-use Zhangbingliang\DesignPatterns\SimpleFactory\Bad;
-use Zhangbingliang\DesignPatterns\SimpleFactory\Factory;
+namespace Zhangbingliang\DesignPatterns\SimpleFactory;
 
 require __DIR__.'/../vendor/autoload.php';
 
